@@ -1,1 +1,5 @@
-dd
+INSERT INTO `parking`.`parking_lot` (`address`, `area`, `capacity`, `company_name`, `end_time`, `latitude`, `longitude`, `name`, `open_time`, `contents`, `file_path`) 
+VALUES ('성남시 분당구 성남대로', '경기 성남시', '50', 'SK(주)', '19:00', '127.106600', '37.366300', 'SK-u타워', '07:00', '', '');
+
+INSERT INTO `parking`.`parking_lot` (`address`, `area`, `capacity`, `company_name`, `end_time`, `latitude`, `longittude`, `name`, `open_time`, `contents`, `file_path`) 
+VALUES ('서울시 종로구', '서울시 종로구시', '100', 'SKT', '19:00', '126.9850', '37.5664', 'SK-T타워', '07:00', '', '');
